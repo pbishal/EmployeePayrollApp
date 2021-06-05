@@ -1,0 +1,100 @@
+body{
+    margin:0;
+    height: 100%;
+}
+.header
+{
+    padding:15px 0;
+    background-color: #ffffff;
+}
+.header-content
+{
+    display: flex;
+    justify-content: center;
+    border: 0px solid green;
+}
+.logo-content
+{
+    display: flex;
+    align-items: center;
+    border: 0px solid green;
+    width:80%;
+}
+img
+{
+    width:4em;
+}
+.logo-content-img
+{
+    border: 1px solid #42515f;
+}
+.emp-text
+{
+    font:normal normal bold 20px/25px Montserrat;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0px;
+    color: #82a70c;
+    text-transform: capitalize;
+}
+.emp-payroll
+{
+    color: #42515f;
+}
+/*UC 2*/
+.form-content
+{
+    min-height:calc(100%-80px);
+    background-color:#f7f7f7;
+    display:flex;
+    justify-content: center;
+}
+.form
+{
+    width:65%;
+    padding: 44px 60px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 100%;
+}
+.form-head
+{
+    font:normal normal bold 20px/37px Roboto;
+    letter-spacing: 0px;
+    color:#42515f;
+    text-transform: capitalize;
+    opacity: 1;
+    padding-bottom: 20px;
+}
+.row-content 
+{
+    display: flex; 
+    margin-bottom: 10px; 
+    align-items: center; 
+    border: Opx solid green; 
+}
+.label 
+{
+    min-width: 140px; 
+}
+label 
+{
+    padding: 12px 12px 12px 0;
+    display: inline-block; 
+}
+.text
+{
+    font-size: 16px; 
+    color: #42515f; 
+    opacity: 1; 
+    font-family: Roboto; 
+}
+.input 
+{
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    resize: vertical; 
+}
